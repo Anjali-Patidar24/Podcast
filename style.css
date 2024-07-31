@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxMdKsbX458_PdMeQZ3zbTmRTnDCsYHKipaDERbBHwMx8WLEFT') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+.header {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.podcast-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.podcast {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.podcast img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.podcast-title {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+.episodes {
+    color: #666;
+}
+
